@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          basedir: file://Users/thirumal/git/config-repo
+          
+          skipSslValidation: true
+          clone-on-start: true  
+        
