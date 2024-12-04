@@ -1,7 +1,7 @@
 /**
  * 
  */
-package in.thirumal.config;
+package com.thirumal.config;
 
 import org.springframework.context.annotation.Configuration;
 
