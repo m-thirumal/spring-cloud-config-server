@@ -3,7 +3,6 @@ spring:
     name: spring-cloud-config-server
   profiles:
     active: DEV
-  
   cloud:
     config: 
       server: 
@@ -19,7 +18,8 @@ spring:
 server:
   port: 8888
   shutdown: graceful
-  
+encrypt:
+  key: secret  
 management:
   endpoints:
     web:
