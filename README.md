@@ -38,7 +38,7 @@ Application in `DEV` environment will not ask for credentials, however on `PRO` 
 http://localhost:8888/{application}/{profile}/{label}
 ```
 
-## Encryption for properties
+## Encryption at Rest - for properties
 To encrypt the value before it gets stored in database/git
 
 ```

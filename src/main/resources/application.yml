@@ -12,14 +12,22 @@ spring:
           username: m.thirumal@hotmail.com
           password: 
           refreshRate: 84600
+#				jdbc:
+#				  enabled: true
+#				  default-label: main
+#				  sql: > 
+#				    SELECT `key`, `value` FROM properties WHERE application = ? AND profile = ? AND label = ?
+
   lifecycle:
     timeout-per-shutdown-phase: 30s
             
 server:
   port: 8888
   shutdown: graceful
+
 encrypt:
   key: secret  
+
 management:
   endpoints:
     web:
